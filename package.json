@@ -1,0 +1,8 @@
+{
+  "name": "firstsignal",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/parser.test.js && node tests/agent.test.js && node tests/sanitise.test.js"
+  }
+}
